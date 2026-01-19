@@ -1,0 +1,461 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YourECP | Your Excellent Career Path</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/Style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container nav">
+
+    <div class="logo">My Software Rental
+    
+    </div>
+
+    <!-- Hamburger -->
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Menu -->
+    <nav class="menu" id="menu">
+      <a href="#>Home</a>
+      <a href="#">Free Tools</a>
+      <a href="#">Premium Tools</a>
+      <a href="#">Ai Apps</a>
+      <a href="#">OOTs</a>
+      <a href="#">Software</a>
+      <a href="#">Subsricptions</a>
+      <a href="#">bundles And Packs</a>
+    <a href="https://dentire.store.shoopy.in" class="nav-btn">Order Now</a>
+    </nav>
+
+  </div>
+</header>
+<!-- HERO WITH VIDEO BACKGROUND -->
+<section class="hero-video">
+
+  <!-- Background Video -->
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\My Software rental .mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Overlay -->
+  <div class="video-overlay"></div>
+
+  <!-- Content -->
+  <div class="hero-content container">
+    <h1>My Software Rental</h1>
+    <p class="tagline">Guiding Careers. Creating Opportunities.</p>
+
+    <p class="description">
+      My Software Rental helps students and learners access premium software
+      at affordable prices. Verified access, safe payments, and full plan
+      validity — built on trust and transparency.
+    </p>
+    <div class="hero-buttons">
+      <a href="#" class="btn primary">Get Started</a>
+    </div>
+  </div>
+
+</section>
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container">
+    <h2>About My Software Rental</h2>
+    <p class="section-text">
+      My Software Rental helps students and learners access premium software at affordable prices. We provide verified access, safe payments, and full plan validity — built on trust and transparency.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>⚡ Instant Activation </h3>
+      </div>
+      <div class="card">
+        <h3>🔒 Safe Payment</h3>
+      </div>
+      <div class="card">
+        <h3>📅 Full Plan Validity</h3>
+      </div>
+      <div class="card">
+        <h3>✅ Verified Access</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section light" id="services">
+  <div class="container">
+    <h2>Subscriptions Support Services</h2>
+    <p class="section-text">Everything you need to prepare for opportunities.</p>
+
+    <div class="cards">
+  <div class="card"><h3>Canva Pro</h3></div>
+  <div class="card"><h3>Netflix</h3></div>
+  <div class="card"><h3>YouTube</h3></div>
+  <div class="card"><h3>Instagram</h3></div>
+  <div class="card"><h3>Adobe</h3></div>
+  <div class="card"><h3>Adobe Creative Cloud</h3></div>
+  <div class="card"><h3>Adobe Software Pack</h3></div>
+  <div class="card"><h3>Microsoft 365</h3></div>
+</div>
+
+</section>
+
+<!-- ===== SOFTWARE SECTION ===== -->
+<section class="software-section">
+  <div class="container">
+
+    <h2 class="section-title">Available Software & Tools</h2>
+    <p class="section-subtitle">
+      Access popular tools through My Software Rental subscription plans
+    </p>
+
+<!-- Search Box -->
+<div class="software-search">
+  <input 
+    type="text" 
+    id="softwareSearch" 
+    placeholder="Search software (ChatGPT, Netflix, Canva...)"
+    onkeyup="filterSoftware()"
+  >
+</div>
+
+    <div class="software-grid">
+
+      <!-- Software Card -->
+      <div class="software-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT">
+        <h3>ChatGPT</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\Gemini.jpg" alt="Google Gemini">
+        <h3>Google Gemini</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix">
+        <h3>Netflix</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Subscribe</a>
+      </div>
+
+      <div class="software-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube">
+        <h3>YouTube Premium</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Subscribe</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\amazon prime.jpg" alt="Amazon Prime">
+        <h3>Amazon Prime</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Subscribe</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\canva.jpg"alt="Canva">
+        <h3>Canva Pro</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\spotify].png" alt="Spotify">
+        <h3>Spotify</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Subscribe</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\insta.jpg"alt="Instagram">
+        <h3>Instagram</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\Jio hotstar.jpg" alt="Jio hotstar">
+        <h3>Jio hotstar</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\YT.png" alt="YouTube">
+        <h3>YouTube</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\capcut.png" alt="Capcut">
+        <h3>Capcut</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\Cursor_Vector_Logo.png" alt="Cursor">
+        <h3>Cursor</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\autodesk.png" alt="AutoDesk">
+        <h3>AutoDesk</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\filmora.png" alt="filmora">
+        <h3>filmora</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\sony liv.png"alt="Sony Liv">
+        <h3>Sony liv</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Subscribe</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\Adobe-Photoshop-Logo.png" alt="Photoshop">
+        <h3>Photoshop Premium</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Subscribe</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\Microsoft-Logo-HD.jpg" alt="Microsoft">
+        <h3>Microsoft</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Subscribe</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\Adobe-Logo.png" alt="Adobe">
+        <h3>Adobe</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\Google Veo 3.png" alt="Google veo 3">
+        <h3>Google veo 3</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Subscribe</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\pdf.jpg"alt="PDF">
+        <h3>PDF</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\lin.png" alt="linkedin">
+        <h3>linkedin</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\Ap.png" alt="Adobe Creative Cloud">
+        <h3>Adobe Creative Cloud</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\gemini 2tb.png"alt="Gemini 2TB Storage">
+        <h3>Gemini 2TB Storage</h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+      <div class="software-card">
+        <img src="C:\Users\aashu\Desktop\My SOFTWARE RENTAL\Assest\11 lab pro.png" alt="11 lab pro">
+        <h3>Eleven Lab pro </h3>
+        <div class="rating">★★★★★ <span>(5.0)</span></div>
+        <div class="price-tag">₹299 / month</div>
+        <a href="#" class="software-btn">Get Access</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section" id="process">
+  <div class="container">
+    <h2>Why We’re Different</h2>
+
+    <div class="steps">
+      <div class="step">100% Verified and Tested — No fake or shared accounts.</div>
+      <div class="step">Happykit Community — 2.5k Active users trust us.</div>
+      <div class="step">Full Plan Validity — Plan Validity as Promised.</div>
+      <div class="step">Your Designs Stay Safe & Private — No shared spaces or loss risks.</div>
+      <div class="step">Instant Activation —On your email.</div>
+      <div class="step">Trusted by 3000+ Users — ⭐ 4.8 average rating and growing.</div>
+      <div class="step">No Removal— Our Users dont face any problem in their products.</div>
+      <div class="step">24×7 Support — Always available to help you anytime.</div>
+    </div>
+  </div>
+</section>
+
+<!-- REGISTER -->
+<section class="section" id="register">
+  <div class="container center">
+    <h2>Start Viewing more Products</h2>
+    <p class="section-text">Visit Our Official Store order your Producct on whatsapp </p>
+    <a href="https://dentire.store.shoopy.in/" target="_blank" class="btn primary"> Order Now </a>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-grid">
+
+    <!-- CONTACT -->
+    <div class="footer-col">
+      <p class="footer-item">📍 F-1906, Prateek Wisteria,<br>Sector-77, Noida-201301</p>
+      <p class="footer-item">✉️ contact@yourECP.com</p>
+      <p class="footer-item">📞 +91 8800616434</p>
+    </div>
+
+    <!-- INFORMATION -->
+    <div class="footer-col">
+      <h4>INFORMATION</h4>
+      <a href="#">About Us</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Return & Refund Policy</a>
+      <a href="#">Blog</a>
+      <a href="#">Partner With Us</a>
+    </div>
+
+    <!-- SOCIAL -->
+    <div class="footer-col">
+      <h4>SOCIAL</h4>
+      <a href="#">📷 Instagram</a>
+      <a href="#">📘 Facebook</a>
+      <a href="#">❌ X.com</a>
+      <a href="#">💼 LinkedIn</a>
+      <a href="#">▶️ YouTube</a>
+    </div>
+
+    <!-- NEWSLETTER -->
+    <div class="footer-col">
+      <h4>NEWSLETTER</h4>
+      <label>Email *</label>
+      <input type="email" placeholder="Enter your email">
+      <button>Subscribe</button>
+    </div>
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    ©2026 All rights reserved | My Software Rental™
+  </div>
+</footer>
+<script>
+
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("active");
+}
+</script>
+<!-- WhatsApp Floating Button -->
+<div class="whatsapp-float" onclick="openWhatsAppOverlay()">
+  💬
+</div>
+
+<!-- WhatsApp Overlay -->
+<div class="whatsapp-overlay" id="whatsappOverlay">
+  <div class="whatsapp-box">
+    <span class="close-btn" onclick="closeWhatsAppOverlay()">×</span>
+
+    <h3>Chat with us on WhatsApp</h3>
+    <p>Our team is available to guide your career.</p>
+
+    <a 
+      href="https://wa.me/918929499582" 
+      target="_blank" 
+      class="whatsapp-btn">
+      Start Chat
+    </a>
+  </div>
+</div>
+
+<script>
+function openWhatsAppOverlay() {
+  document.getElementById("whatsappOverlay").style.opacity = "1";
+  document.getElementById("whatsappOverlay").style.visibility = "visible";
+}
+
+function closeWhatsAppOverlay() {
+  document.getElementById("whatsappOverlay").style.opacity = "0";
+  document.getElementById("whatsappOverlay").style.visibility = "hidden";
+}
+</script>
+
+<script>
+function filterSoftware() {
+  let input = document.getElementById("softwareSearch").value.toLowerCase();
+  let cards = document.querySelectorAll(".software-card");
+
+  cards.forEach(card => {
+    let title = card.querySelector("h3").innerText.toLowerCase();
+    card.style.display = title.includes(input) ? "block" : "none";
+  });
+}
+</script>
+
+
+</body>
+</html>
